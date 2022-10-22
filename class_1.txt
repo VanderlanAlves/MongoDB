@@ -1,0 +1,37 @@
+-- COMANDOS
+
+-- mostrar todos os db
+> show databases
+
+-- usar db específico ou criar um 
+> use nome_db
+
+-- listar todas as collections de um db
+> show collections
+>db.getCollectionNames()
+
+-- usar uma collection
+> db.nome_collection
+> db.getCollection("nome_collection")
+
+-- criar uma collection
+> db.createCollection("nome_collection")
+
+-- remover uma collection
+> db.nome_collection.drop()
+
+-- adicionar um registro na collection
+ formato
+JSON - Javascript Object Notation
+
+{ "chave": "valor"}
+{ "jogador": "Neymar", "camisa": "9" }
+
+> db.nome_collection.insertOne({ "jogador": "Neymar", "camisa": "9" })
+
+-- pegar nome da collection
+> db.nome_collection.getName()
+
+-- contar num documents da collection
+>db.nome_collection.countDocuments()
+

@@ -1,0 +1,25 @@
+{
+  "fabricante": {
+    "nome": "Fiat",
+    "endereco": {
+      "logradouro": "Rua das Jangadas",
+      "numero": "234",
+      "uf": "MG"
+    }
+  },
+  "modelo": "Uno",
+  "ano_fabricacao": 2000,
+  "motor": 1,
+  "bom_estado_conservacao": false,
+  "acessorios": [
+    "rodas de liga",
+    "som",
+    "led",
+    "cilios",
+    "neon"
+  ],
+  "velocidade": {
+    "min": 0,
+    "max": 150
+  }
+}

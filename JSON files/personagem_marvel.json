@@ -1,0 +1,23 @@
+{
+  "nome": "Groot",
+  "poderes": [
+    "visao total do espectro eletromagnetico",
+    "leitura de mentes",
+    "regeneracao",
+    "teletransporte"
+  ],
+  "nivel de poder": {
+    "min": 3000,
+    "max": 100000
+  },
+  "local_atuacao": {
+    "planeta": "Terra",
+    "tipo": "rochoso",
+    "galaxia": "Via Lactea",
+    "grupo local": "3 megaparsec",
+    "bolha local": {
+      "min": 2.82,
+      "max": 250
+    }
+  }
+}
