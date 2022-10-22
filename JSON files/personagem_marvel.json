@@ -1,12 +1,13 @@
 {
   "nome": "Groot",
+  "constituicao_corporal": "CHONPS",
   "poderes": [
     "visao total do espectro eletromagnetico",
     "leitura de mentes",
     "regeneracao",
     "teletransporte"
   ],
-  "nivel de poder": {
+  "nivel_poder": {
     "min": 3000,
     "max": 100000
   },
@@ -14,10 +15,19 @@
     "planeta": "Terra",
     "tipo": "rochoso",
     "galaxia": "Via Lactea",
-    "grupo local": "3 megaparsec",
-    "bolha local": {
+    "grupo_local": "3 megaparsec",
+    "bolha_local": {
       "min": 2.82,
       "max": 250
-    }
+    },
+    "planetas_vizinhos": [
+      "Mercurio",
+      "Venus",
+      "Marte",
+      "Jupiter",
+      "Saturno",
+      "Urano",
+      "Netuno"
+    ]
   }
 }
