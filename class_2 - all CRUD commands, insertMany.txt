@@ -1,0 +1,51 @@
+-- COMANDOS
+
+-- new way to create a colecction using a document
+> use db_name
+> db.collection_name.insertOne({ hero: "Super Man" })
+
+(BSON type -> key without quotation marks, saves it as binary format)
+
+
+-- Insert Many
+> db.xmen.insertMany([
+    { hero: "Ciclope" },
+    { hero: "Wolverine"},
+    { hero: "Jean Grey"},
+    { hero: "Polaris"}
+])
+
+-- Operations - CRUD: Create, Read, Update, Delete
+
+Create:
+    db.collection_name.insert({})
+    db.collection_name.insertOne({})
+    db.collection_name.insertMany([{}, {}, {}])
+
+Read:
+    -- all collections: > db.getCollectionNames()
+    
+    -- all documents: > db.collection_name.find()
+    
+    -- find a specific document: > db.collection_name.find({ key: "value" })
+    
+    -- find by ID: > db.collection_name.find({ _id: ObjectId("635718d9edecc5923570bf34") })
+    
+    -- with filter, show specific keys: > db.collection_name.find({ wanted_key: true }, { name: 1, _Id: 0 })
+
+Update:
+    -- update one: > db.collection_name.updateOne({ key: "value" }, { $set: { key: "new_value" } })
+    
+    -- for specific documents, update many: > db.collection_name.updateMany({ key: "value" }, { $set: { key: "new_value" } })
+    
+    -- for all documents on a collection, update many: > db.collection_name.updateMany({}, { $set: { key: "Value" } })
+    
+    -- delete a specific key and its values: > db.collection_name.updateMany({}, { $unset: { key: true } })
+    
+    -- delete delete a specific key and add another key and its values:
+       > db.collection_name.updateMany({}, $set: { new_key: "Value" }, $unset: { old_key: 1} })
+
+Delete:
+    -- delete one: > db.collection_name.deleteOne( {key: "value"} )
+    -- delete many as an example: > db.collection_name.deleteMany({ isAlive: false })
+
