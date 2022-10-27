@@ -2,7 +2,7 @@
 
 -- new way to create a colecction using a document
 > use db_name
-> db.collection_name.insertOne({ hero: "Super Man" })
+> db.new_collection_name.insertOne({ hero: "Super Man" })
 
 (BSON type -> key without quotation marks, saves it as binary format)
 
@@ -31,7 +31,7 @@ Read:
     
     -- find by ID: > db.collection_name.find({ _id: ObjectId("635718d9edecc5923570bf34") })
     
-    -- with filter, show specific keys: > db.collection_name.find({ wanted_key: true }, { name: 1, _Id: 0 })
+    -- with filter, show specific keys: > db.collection_name.find({ key: true }, { name: 1, _Id: 0 })
 
 Update:
     -- update one: > db.collection_name.updateOne({ key: "value" }, { $set: { key: "new_value" } })

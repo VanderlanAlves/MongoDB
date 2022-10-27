@@ -1,6 +1,7 @@
 {
   "nome": "Groot",
-  "constituicao_corporal": "CHONPS",
+  "constituicao_corporal": "Celulose",
+  "credencial_marvel_ativa": true,
   "poderes": [
     "visao total do espectro eletromagnetico",
     "leitura de mentes",
