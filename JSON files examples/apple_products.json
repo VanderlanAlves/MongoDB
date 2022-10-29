@@ -1,0 +1,107 @@
+{
+  "marca": "Apple",
+  "setor": "Eletrônicos",
+  "modelos": [
+    {
+      "modelo": "iPhone 11",
+      "preco": 3499.99,
+      "localizacao_estoque": [
+        "A2",
+        "A3"
+      ],
+      "cores": [
+        "preto",
+        "branco"
+      ],
+      "distribuidor": {
+        "nome": "Apple Brasil",
+        "endereco": {
+          "logradouro": "Rua Wilson de Cáprio",
+          "numero": "09",
+          "CEP": "08556838"
+        }
+      }
+    },
+    {
+      "modelo": "Apple Watch Series 3",
+      "preco": 1499.99,
+      "localizacao_estoque": [
+        "A4",
+        "A5"
+      ],
+      "cores": [
+        "azul",
+        "cinza",
+        "vermelho"
+      ],
+      "distribuidor": {
+        "nome": "FastShop",
+        "endereco": {
+          "logradouro": "Avenida Giovanni",
+          "numero": "1001",
+          "CEP": "74887393"
+        }
+      }
+    },
+    {
+      "modelo": "iPhone 11 Pro",
+      "preco": 5499.99,
+      "localizacao_estoque": [
+        "A2",
+        "A3"
+      ],
+      "cores": [
+        "preto",
+        "branco"
+      ],
+      "distribuidor": {
+        "nome": "Apple Santa Quitéria",
+        "endereco": {
+          "logradouro": "Rua Carlos Jorge",
+          "numero": "43",
+          "CEP": "03556838"
+        }
+      }
+    },
+    {
+      "modelo": "iPhone 12 Pro",
+      "preco": 6499.99,
+      "localizacao_estoque": [
+        "A6",
+        "A7"
+      ],
+      "cores": [
+        "preto",
+        "branco"
+      ],
+      "distribuidor": {
+        "nome": "Apple N'Wild",
+        "endereco": {
+          "logradouro": "Rua Crateús",
+          "numero": "44",
+          "CEP": "08356838"
+        }
+      }
+    },
+    {
+      "modelo": "EarPods Pro",
+      "preco": 199.99,
+      "localizacao_estoque": [
+        "A6",
+        "A7"
+      ],
+      "cores": [
+        "preto",
+        "branco"
+      ],
+      "distribuidor": {
+        "nome": "Apple Fones",
+        "endereco": {
+          "logradouro": "Rua Crateús II",
+          "numero": "45",
+          "CEP": "08556538"
+        }
+      }
+    }
+  ]
+}
